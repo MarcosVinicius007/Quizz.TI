@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>It Job Quiz</title>
+	<style>
+		body {
+			background-color: #000;
+			color: #fff;
+		}
+		.quiz-container {
+			width: 80%;
+			margin: 40px auto;
+			padding: 20px;
+			background-color: #333;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+		}
+		.question {
+			margin-bottom: 20px;
+		}
+		.question label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.question input[type="radio"] {
+			margin-right: 10px;
+		}
+		.submit-button {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.submit-button:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="quiz-container">
+		<h1>Quiz com algumas das princiopais perguntas feitas em entrevistas de emprego na área de T.I </h1>
+		<form>
+			<div class="question">
+				<label>Qual é a habilidade mais importante para se ter ao se candidatar a uma vaga de TI?</label>
+				<input type="radio" name="q1" value="a"> Linguagens de programação
+				<input type="radio" name="q1" value="b"> Habilidades de comunicação
+				<input type="radio" name="q1" value="c"> Habilidades de resolução de problemas
+			</div>
+			<div class="question">
+				<label>Qual é a melhor maneira de aprender novas linguagens de programação?</label>
+				<input type="radio" name="q2" value="a"> Tutoriais online
+				<input type="radio" name="q2" value="b"> Livros e documentação
+				<input type="radio" name="q2" value="c"> Practicar e construir projetos 
+			</div>
+			<div class="question">
+				<label>Qual é o tipo mais comum de trabalho de TI?</label>
+				<input type="radio" name="q3" value="a"> Software developer
+				<input type="radio" name="q3" value="b"> Network administrator
+				<input type="radio" name="q3" value="c"> Data analyst
+			</div>
+			<div class="question">
+				<label>Qual é a melhor maneira de se preparar para uma entrevista de emprego em TI?</label>
+				<input type="radio" name="q4" value="a">Pesquisar sobre a emprensa 
+				<input type="radio" name="q4" value="b"> Praticar perguntas comuns de entrevista
+				<input type="radio" name="q4" value="c"> Através  de atualizações do currículo 
+			</div>
+			<div class="question">
+				<label>Qual é a coisa mais importante a considerar ao escolher um trabalho de TI?</label>
+				<input type="radio" name="q5" value="a"> Salário e benefícios
+				<input type="radio" name="q5" value="b"> Segurança e estabilidade no emprego
+				<input type="radio" name="q5" value="c"> Oportunidades de crescimento e desenvolvimento
+			</div>
+			<input type="submit" value="Submit" class="submit-button">
+		</form>
+	</div>
+</body>
+</html>
